@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  bitcoin:
+    build: ./bitcoin
+    ports:
+      - "8333:8333"
+      - "8332:8332"
+    volumes:
+      - ./config/bitcoin/:/root/.bitcoin

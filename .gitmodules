@@ -1,0 +1,3 @@
+[submodule "bitcoin/bitcoin"]
+	path = bitcoin/bitcoin
+	url = https://github.com/bitcoin/bitcoin.git
